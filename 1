@@ -1,4 +1,5 @@
-public class JavaApplication1 {
+/* EX 1: 
+public class ex1 {
     public static void main(String[] args) {
      int a=3;
      int b=4;
@@ -7,3 +8,132 @@ public class JavaApplication1 {
      System.out.println("Le double de a est:" + 2*a + ".");
     }
 }
+*/ 
+
+/* EX 2:  
+public class ex2 {
+    public static void main(String[] args) {
+        int c=11;
+        int d=2;
+        double e=1.0;
+        e=c/d;
+        System.out.println(e);
+        }
+}
+*/
+
+/* EX 3:
+public class ex3 {
+    public static void main(String[] args) {
+        String mess = JOptionPane.showInputDialog("Inserez ici le message");
+        System.out.println("Salut" + mess);
+    }
+}
+*/
+
+/* EX 4:
+import javax.swing.JOptionPane;
+public class ex4 {
+   public static void main(String[] args) {
+       String mess=JOptionPane.showInputDialog("Inserez ici le message");
+       mess=mess.toUpperCase();
+       
+       String mes=JOptionPane.showInputDialog("Inserez ici le message");
+       mes=mes.toLowerCase();
+       System.out.println(mess + " " + mes);
+       }
+}
+*/
+
+/* EX 5:
+public class ex5 {
+    public static void main(String[] args) {
+        int a=1;
+        int s=0;
+        for(a=1;a<=20;a++)   {if(a%2==0)
+                                 s=s+a;
+                             }
+        System.out.println(s);
+    }
+}
+*/
+
+
+/* EX 6:
+public class ex6 {
+    public static void main(String[] args) {
+        int a=(int)(Math.random()*100);
+        int b=(int)(Math.random()*100);
+        int c=(int)(Math.random()*100);
+    System.out.println(a + " " + b + " " + c);
+    if(a>b)   {if(a>c) System.out.println(a);
+               else System.out.println(c);
+               }
+       else   {if(b>c) System.out.println(b);
+               else System.out.println(c);
+              }
+   }
+}
+*/
+
+/* EX 7:
+public class ex7 {
+    public static void main(String[] args) {
+        double a, b, c, d;
+        a=2.2;
+        b=3.3;
+        c=10; 
+        d=(a+b+c)/3;
+        System.out.println(d);
+    }
+}
+*/
+
+/* EX 8:
+public class ex8 {
+   public static void main(String[] args) {   
+    int i = 1;
+    int sumi = 0;
+        for(i=1;i<=20;i++)
+          {if(i%2==0)
+              sumi=sumi+i;
+          }
+    System.out.println(sumi);
+   }
+}
+
+/* EX 9:
+public class ex9 {
+    public static void main(String[] args) {
+      String n=JOptionPane.showInputDialog("Enterez un nombre");
+      int numm=Integer.parseInt(n);
+      int s=0;
+      while (numm!=0) {s=s+numm%10;
+                       numm/=10;
+                      }
+      System.out.println(s);
+     }
+}
+*/
+/* EX 10:
+public class ex10 {
+    public static void main(String[] args) {
+       double i=1;
+       while (i<=10){System.out.println(Math.pow(i, 3));
+                     i++;}
+     }
+}
+*/
+
+/* EX 11:
+public class ex11 {
+    public static void main(String[] args) {
+    int i=1;
+    int j=1;
+    for(i=1;i<=10;i++)
+    for(j=1;j<=10;j++)
+    {System.out.print(i*j+" ");}
+    System.out.println();
+   }
+}
+*/
